@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <header>
-        <div class="logo"><img src="images/logo_html.png" alt="Logo"></div>    
-            <nav class="nav">
-                <a href="https://www.w3schools.com/" target="_blank">
-                    <img src="images/w3_icon_64.png" alt="W3Schools" class="w3_logo">
-                </a>
-                <a href="https://www.theodinproject.com/" target="_blank">
-                    <img src="images/odin_icon_64.jpeg" alt="The Odin Project" class="odin_logo">
-                </a>
-                <a href="https://www.https://code.visualstudio.com/" target="_blank">
-                    <img src="/images/vscode_64.png" alt="VSCODE" class="vscode_icon">
-                </a>
-            </nav>
-    </header>    
-            
- <main class="main-content">
-    <div>
+        <div class="logo"><img src="images/logo_html.png" alt="Logo"></div>
+
+        <div class="links__container">
+            <nav class="header-links">
+                <a href="https://www.w3schools.com/">W3Schools</a>
+                <a href="https://www.TheOdinProject.com/">The Odin Project</a>
+                <a href="https://www.code.visualstudio.com/">VSCode</a>
+    </header>
+
+    <main>
         <section class="intro">
             <h1 class="intro__heading">Hello, World!</h1>
-            <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas placeat harum natus, fugit, aliquid illum exercitationem est quasi possimus soluta quaerat dolor labore cumque! Fugit nesciunt quisquam laboriosam quae veritatis.</p>
-        <button class="intro__button">Sign Up!</button>
-            </section> 
-    </div>
-</main>
-    <div></div>
-    <div></div>
-    <div></div>
-    <footer></footer>
+            <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas placeat harum natus,
+                fugit, aliquid illum exercitationem est quasi possimus soluta quaerat dolor labore cumque! Fugit
+                nesciunt quisquam laboriosam quae veritatis.</p>
+            <button class="intro__button">Sign Up!</button>
+
+            <img src="images/ibex_photo.jpg" alt="Alpine Ibex" class="intro__img">
+        </section>
+
+        <section class="gallery">
+            <h2 class="gallery__heading">This is an image gallery!</h2>
+            <div class="gallery__container">
+                <div class="gallery__item">
+                    <img class="gallery__image" src="#">
+                    <p class="gallery__text">This is subtext for an image.></p>
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__image" src="#">
+                    <p class="gallery__text">This is subtext for an image.></p>
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__image" src="#">
+                    <p class="gallery__text">This is subtext for an image.></p>
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__image" src="#">
+                    <p class="gallery__text">This is subtext for an image.></p>
+                </div>
+        </section>
+        <section class="quote">
+            <div class="quote__container">
+                <blockquote>
+                    <p class="quote__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ullam nostrum
+                        et
+                        ipsa repellendus aliquid fugit voluptatem placeat deleniti recusandae.</p>
+                </blockquote>
+                <p class="quote__source"><strong>-Lao Tzu</strong></p>
+            </div>
+        </section>
+
+        <section class="call">
+            <div class="call__container">
+                <h3 class="call__heading">Get Involved!</h3>
+                <p class="call__text">Click the link to get started!</p>
+                <button class="call__button">Sign Up!</button>
+            </div>
+    </main>
+
 
 </body>
+
 </html>
