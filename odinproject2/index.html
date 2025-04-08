@@ -11,52 +11,56 @@
 <body>
 
     <header>
-        <div class="logo"><img src="images/logo_html.png" alt="Logo"></div>
+        <div class="logo-container"><img src="images/logo_html.png" alt="Logo"></div>
 
-        <div class="links__container">
-            <nav class="header-links">
-                <a href="https://www.w3schools.com/">W3Schools</a>
-                <a href="https://www.TheOdinProject.com/">The Odin Project</a>
-                <a href="https://www.code.visualstudio.com/">VSCode</a>
+        <nav class="header-links">
+            <a href="https://www.w3schools.com/">W3Schools</a>
+            <a href="https://www.TheOdinProject.com/">The Odin Project</a>
+            <a href="https://www.code.visualstudio.com/">VSCode</a>
+        </nav>
+
     </header>
 
     <main>
         <section class="intro">
-            <h1 class="intro__heading">Hello, World!</h1>
-            <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas placeat harum natus,
-                fugit, aliquid illum exercitationem est quasi possimus soluta quaerat dolor labore cumque! Fugit
-                nesciunt quisquam laboriosam quae veritatis.</p>
-            <button class="intro__button">Sign Up!</button>
+            <div class="intro-container">
+                <h1 class="intro-heading">Hello, World!</h1>
+                <p class="intro-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas placeat harum
+                    natus,
+                    fugit, aliquid illum exercitationem est quasi possimus soluta quaerat dolor labore cumque! Fugit
+                    nesciunt quisquam laboriosam quae veritatis.</p>
+                <button class="intro-button">Sign Up!</button>
+            </div>
 
-            <img src="images/ibex_photo.jpg" alt="Alpine Ibex" class="intro__img">
+            <div class="intro-img"><img src="images/ibex_photo.jpg" alt="Alpine Ibex" class="intro-img"></div>
         </section>
 
         <section class="gallery">
             <h2 class="gallery__heading">This is an image gallery!</h2>
             <div class="gallery__container">
                 <div class="gallery__item">
-                    <img class="gallery__image" src="#">
-                    <p class="gallery__text">This is subtext for an image.></p>
+                    <img class="gallery__image" src="/images/odin_icon.jpeg">
+                    <p class="gallery__text">This is subtext for an image.</p>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="#">
-                    <p class="gallery__text">This is subtext for an image.></p>
+                    <img class="gallery__image" src="/images/vscode.png">
+                    <p class="gallery__text">This is subtext for an image.</p>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="#">
-                    <p class="gallery__text">This is subtext for an image.></p>
+                    <img class="gallery__image" src="/images/logo_html.png">
+                    <p class="gallery__text">This is subtext for an image.</p>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="#">
-                    <p class="gallery__text">This is subtext for an image.></p>
+                    <img class="gallery__image" src="/images/w3_icon.png">
+                    <p class="gallery__text">This is subtext for an image.</p>
                 </div>
         </section>
         <section class="quote">
             <div class="quote__container">
-                <blockquote>
-                    <p class="quote__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ullam nostrum
-                        et
-                        ipsa repellendus aliquid fugit voluptatem placeat deleniti recusandae.</p>
+                <blockquote class="quote__text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ullam nostrum
+                    et
+                    ipsa repellendus aliquid fugit voluptatem placeat deleniti recusandae.
                 </blockquote>
                 <p class="quote__source"><strong>-Lao Tzu</strong></p>
             </div>
@@ -64,10 +68,16 @@
 
         <section class="call">
             <div class="call__container">
-                <h3 class="call__heading">Get Involved!</h3>
-                <p class="call__text">Click the link to get started!</p>
+                <div class="call__text">
+                    <h3 class="call__heading">Get Involved!</h3>
+                    <p class="call__subtext">Click the link to get started!</p>
+                </div>
+
                 <button class="call__button">Sign Up!</button>
             </div>
+        </section>
+        <footer class="copyright">No rights reserved.</footer>
+
     </main>
 
 
